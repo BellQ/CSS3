@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .android{
+            margin:100px auto;
+            width:600px;
+            height:450px;
+            background-color:#fff;
+            position:relative;
+        }
+        .header{
+            width:218px;
+            height:100px;
+            background-color:greenyellow;
+            margin:40px auto;
+            border-radius: 100px 100px 0 0;
+        }
+        /*眼睛*/
+        .header:before{
+            content:"";
+            display:block;
+            height:30px;
+            width:30px;
+            background-color:#fff;
+            position:absolute;
+            left:240px;
+            top:40px;
+            border-radius:50%;
+        }
+        .header:after{
+            content:"";
+            display:block;
+            height:30px;
+            width:30px;
+            background-color:#fff;
+            position:absolute;
+            right:240px;
+            top:40px;
+            border-radius:50%;
+        }
+
+        .body{
+            width:218px;
+            height:180px;
+            background-color:#A4CA39;
+            margin:-35px auto;
+            border-radius:0px 0px 20px 20px;
+        }
+
+        .footer{
+            width:350px;
+            height:150px;
+            /*background-color:pink;*/
+            position:absolute;
+            top:120px;
+            left: 125px;
+        }
+        .footer:before{
+            content:"";
+            height:130px;
+            background-color:#A4CA39;
+            display:inline-block;
+            width:50px;
+            border-radius:50px;
+        }
+        .footer:after{
+            content:"";
+            height:130px;
+            background-color:#A4CA39;
+            display:inline-block;
+            width:50px;
+            border-radius:50px;
+            /*position:absolute;*/
+            float:right;
+        }
+        .body:before{
+            content:"";
+            height:130px;
+            background-color:#A4CA39;
+            display:inline-block;
+            width:50px;
+            border-radius:50px;
+            position:absolute;
+            top:250px;
+            left:210px;
+        }
+        .body:after{
+            content:"";
+            height:130px;
+            background-color:#A4CA39;
+            display:inline-block;
+            width:50px;
+            border-radius:50px;
+            position:absolute;
+            top:250px;
+            right:210px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="android">
+  <div class="header"></div>
+    <div class="body"></div>
+    <div class="footer"></div>
+</div>
+</body>
+</html>
