@@ -1,6 +1,6 @@
 # CSS3-border实战
 android[查看效果](https://github.com/BellQ/CSS3/blob/master/images/android.png)
-机器猫[查看效果](https://github.com/BellQ/CSS3/issues/3)
+机器猫[查看效果](https://github.com/BellQ/CSS3/blob/master/images/%E6%9C%BA%E5%99%A8%E7%8C%AB.png)
 # border effects
 采用CSS3-border创建一些特殊图形[查看效果](https://github.com/BellQ/CSS3/issues/1)
 ```css
