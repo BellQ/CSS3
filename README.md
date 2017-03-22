@@ -1,5 +1,5 @@
 # border effects
-采用CSS3-border创建一些特殊图形[查看效果](./imgaes/CSS3 边框.png)
+采用CSS3-border创建一些特殊图形[查看效果](https://github.com/BellQ/CSS3/issues/1)
 ```css
 /*拱形*/
 .item:nth-child(1) .border-radius {
