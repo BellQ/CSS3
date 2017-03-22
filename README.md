@@ -1,5 +1,5 @@
 # border effects
-采用CSS3-border创建一些特殊图形
+采用CSS3-border创建一些特殊图形[查看效果]()
 ```css
 /*拱形*/
 .item:nth-child(1) .border-radius {
