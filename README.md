@@ -3,7 +3,8 @@
 
 ## CSS3 [3D转换](https://github.com/BellQ/CSS3/tree/master/3D%E8%BD%AC%E6%8D%A2)
 
-<<<<<<< HEAD
+## CSS3 [animation](https://github.com/BellQ/CSS3/tree/master/animation)
+
 ## CSS3 基本属性概述
 1、	选择器 属性选择器 语法 [] 查找条件是以“属性”做为查找条件，并且我们还可以
 	通过属性值来查找 [^=] [$=] [*=] [=] [attr]
@@ -154,6 +155,6 @@
 	8、设置某一个子元素在侧轴对齐方式 align-self: flex-start | flex-end | center | stretch
 	9、子元素排序 order: 1;
 	10、改变主轴的方向及位置 flex-direction: column | row | row-reverse column-reverse	
-=======
-## CSS3 [animation](https://github.com/BellQ/CSS3/tree/master/animation)
->>>>>>> origin/master
+
+
+
