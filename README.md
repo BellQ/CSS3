@@ -10,7 +10,7 @@
 	通过属性值来查找 [^=] [$=] [*=] [=] [attr]
 
 	伪类选择器 语法 : E:first-child :last-child :nth-child(n) 
-	dl
+		dl
 		dt
 		dd 
 	dd:nth-child(1)
