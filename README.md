@@ -10,10 +10,11 @@
 	通过属性值来查找 [^=] [$=] [*=] [=] [attr]
 
 	伪类选择器 语法 : E:first-child :last-child :nth-child(n) 
-		dl
-		dt
-		dd 
-	dd:nth-child(1)
+		
+	        li:nth-child(1)
+		li:nth-child(2n)  // 选择索引为偶数的子节点
+		li:nth-child(2n+1)  //选择索引为奇数的子节点
+		
 
 	n 可以是一个表达式 y = an + b, n 的取值n=0, 1, 2 ...
 
